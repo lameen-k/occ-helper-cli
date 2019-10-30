@@ -1,7 +1,7 @@
 {
   "name": "occ-helper-cli",
   "description": "Oracle Commerce Cloud Helper CLI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {},
   "author": "Amine Kacem",
   "bin": {
