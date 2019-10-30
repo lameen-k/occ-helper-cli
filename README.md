@@ -1,11 +1,10 @@
 # Oracle Commerce Cloud Helper CLI
 
-> **_NOTE_**
-> This OCC Helper CLI tool is not a alternative to the [Design Code Utility](https://docs.oracle.com/cd/E97801_04/Cloud.19B/ExtendingCC/html/s4705usethedcutograbanduploadsourceco01.html) as it uses the DCU package for the all its server operations.
+> The OCC Helper CLI tool was not built to be an alternative to the [Design Code Utility](https://docs.oracle.com/cd/E97801_04/Cloud.19B/ExtendingCC/html/s4705usethedcutograbanduploadsourceco01.html) as it uses the DCU package for all its server operations.
 
-The **Oracle Commerce Cloud Helper CLI** will ask you for the environment url and your application key then will store it in an `.env` file so it can be used for the `grab`, `put` and `putAll` commands available in the CLI (you can still use dcu for the rest of the commands)
+The **Oracle Commerce Cloud Helper CLI** will ask you for the environment URL and your application key then will store it in a `.env` file so it can be used for the `grab`, `put` and `putAll` commands available in the CLI (you can still use DCU for the rest of the commands)
 
-The main purpose of this package is to make it easier and faster for me as a developer to download, update and switch between environements without the need to manually enter the env. url and application key manually all the time.
+The main purpose of this package is to make it easier and faster for me as a developer to download, update and switch between environments without the need to manually enter the env. URL and application key manually all the time.
 
 ###Documentation
 
