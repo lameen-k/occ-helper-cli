@@ -59,7 +59,7 @@ occ init
 
 You will be prompted to enter the Environment path which is same as the full Admin URL `example: https://the-admin-url.com`
 
-![alt text](/docs/assets/occInit.png)
+![alt text](https://user-images.githubusercontent.com/2769067/67867990-ebd4b380-fb33-11e9-8f32-a8c25bb3fb99.png)
 
 If you choose `yes` for Grabbing Widgets, the helper cli will execute the `dcu --grab --clean` command line under the hood and you will be downdloading all your OCC resources in the created folder.
 
