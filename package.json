@@ -1,0 +1,26 @@
+{
+  "name": "occ-helper-cli",
+  "description": "Oracle Commerce Cloud Helper CLI",
+  "version": "1.0.0",
+  "scripts": {},
+  "author": "Amine Kacem",
+  "bin": {
+    "occ": "./cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "yargs": "^14.2.0"
+  },
+  "keywords": [
+    "occ",
+    "cli",
+    "dcu",
+    "oracle",
+    "commerce",
+    "cloud"
+  ]
+}
