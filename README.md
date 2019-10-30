@@ -9,18 +9,18 @@ The main purpose of this package is to make it easier and faster for me as a dev
 
 ###Documentation
 
-- [Support (OS Terminals)](#os-support)
+- [Support (OS Terminals)](#support-os-terminals)
 - [Installation](#installation)
-- [Initiate Workspace](#init)
-- [Show Environment variables](#env)
-- [Download resources / widgets](#grabb)
-- [Update a specific file](#put)
-- [Update a directory](#putAll)
-- [Commands List](#cmdList)
+- [Initiate Workspace](#initiate-workspace)
+- [Show Environment variables](#show-environment-variables)
+- [Download resources / widgets](#download-all-modifiable-resources)
+- [Update a specific file](#update-a-specific-file)
+- [Update a directory](#update-a-directory)
+- [Commands List](#commands-list)
 
 ---
 
-### Support (OS Terminals) {#os-support}
+### Support (OS Terminals)
 
 You should expect mostly good support for the CLI below, but not limited to :
 
@@ -30,7 +30,7 @@ You should expect mostly good support for the CLI below, but not limited to :
 
 ---
 
-### Installation {#installation}
+### Installation
 
 In order for the OCC Helper CLI to work you should have the [Design Code Utility](https://docs.oracle.com/cd/E97801_04/Cloud.19B/ExtendingCC/html/s4705usethedcutograbanduploadsourceco01.html) installed globally.
 
@@ -50,7 +50,7 @@ occ --version
 
 ---
 
-#### Initiate Workspace {#init}
+#### Initiate Workspace
 
 You need first to create a folder then `cd` into that folder and run the below command
 
@@ -66,7 +66,7 @@ If you choose `yes` for Grabbing Widgets, the helper cli will execute the `dcu -
 
 ---
 
-#### Show Environment variables {#env}
+#### Show Environment variables
 
 To check your stored credentials (Admin URL and App key), you can always use the below command
 
@@ -76,7 +76,7 @@ occ env
 
 ---
 
-#### Download all modifiable resources {#grab}
+#### Download all modifiable resources
 
 Takes a copy of all available user modifiable source code and metadata from the specified Commerce Cloud server and creates a directory tree on the local disk.
 
@@ -94,7 +94,7 @@ The OCC Helper CLI will execute the `dcu --grab --clean` in the background.
 
 ---
 
-#### Update a specific file {#put}
+#### Update a specific file
 
 Sends the specified file back to the specified Commerce Cloud instance. The `<path to file>` can be either a relative or absolute path.
 
@@ -106,7 +106,7 @@ occ p <file path>
 
 ---
 
-#### Update a directory {#putAll}
+#### Update a directory
 
 Sends the specified file back to the specified Commerce Cloud instance. The `<path to file>` can be either a relative or absolute path.
 
@@ -120,7 +120,7 @@ occ pa <directory path>
 
 ###
 
-### Commands List {#cmdList}
+### Commands List
 
 | Commands         | Options/Arguments   | Description                                                                                                                                               |
 | ---------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
