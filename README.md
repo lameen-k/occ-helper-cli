@@ -9,14 +9,14 @@ The main purpose of this package is to make it easier and faster for me as a dev
 
 ###Documentation
 
-- [Support (OS Terminals)](#support-os-terminals)
-- [Installation](#installation)
-- [Initiate Workspace](#initiate-workspace)
-- [Show Environment variables](#show-environment-variables)
-- [Download resources / widgets](#download-all-modifiable-resources)
-- [Update a specific file](#update-a-specific-file)
-- [Update a directory](#update-a-directory)
-- [Commands List](#commands-list)
+- [Support (OS Terminals)](#user-content-support-os-terminals)
+- [Installation](#user-content-installation)
+- [Initiate Workspace](#user-content-initiate-workspace)
+- [Show Environment variables](#user-content-show-environment-variables)
+- [Download resources / widgets](#user-content-download-all-modifiable-resources)
+- [Update a specific file](#user-content-update-a-specific-file)
+- [Update a directory](#user-content-update-a-directory)
+- [Commands List](#user-content-commands-list)
 
 ---
 
